@@ -2,6 +2,19 @@
 
 **Track-It** is a web-based habit tracker that helps users build and maintain daily routines with insightful analytics and progress tracking.
 
+## 📋 Prerequisites
+
+Before setting up the project, make sure you have the following installed:
+
+- **[Node.js](https://nodejs.org/)** (LTS version recommended)
+- **[Git](https://git-scm.com/)** (optional, but recommended for cloning the repository)
+
+To check if Node.js and npm are installed, run:
+```bash
+node -v
+npm -v
+```
+
 ## 📦 Getting Started
 
 Follow these steps to get the project up and running on your local machine:
@@ -33,5 +46,3 @@ This will start the development server, and you should see a URL like `http://lo
 ## 🧑‍🤝‍🧑 Contributing
 
 Feel free to open issues or submit pull requests if you have suggestions or improvements for the project.
-
----
