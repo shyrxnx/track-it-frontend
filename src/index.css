@@ -28,10 +28,14 @@
   }
 
   h1 {
-    @apply text-4xl font-bold leading-tight;
+    @apply mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white;
+  }
+
+  p {
+    @apply mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400;
   }
 
   button {
-    @apply rounded-lg border border-transparent px-4 py-2 text-base font-medium transition-colors bg-gray-800 text-white hover:border-blue-500 focus:outline focus:outline-blue-300;
+    @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-6 py-3 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
   }
 }
