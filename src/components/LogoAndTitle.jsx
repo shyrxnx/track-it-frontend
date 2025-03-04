@@ -13,14 +13,14 @@ function LogoAndTitle({ size }) {
         textSize = "text-4xl";
         paddingBottom = "";
     } else if (size === "small") {
-        logoSize = "w-10 h-10";
+        logoSize = "w-6 h-6 mr-2";
         textSize = "text-2xl";
-        paddingBottom = "pb-2";
+        paddingBottom = "";
     }
 
     return (
 
-        <div className="flex items-center gap-4 mb-6">
+        <div className="flex items-center">
             <div className="flex items-center justify-center">
                 <img className={`${logoSize} ${paddingBottom} align-middle`} src="/logo.svg" alt="Logo"/>
                 <h1 className={`font-bold ${textSize} align-middle`}>Track-It</h1>
